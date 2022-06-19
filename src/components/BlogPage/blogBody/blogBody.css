@@ -1,0 +1,30 @@
+.BlogBody {
+  background-color: #eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8%;
+  height: 50rem;
+}
+
+.input-title {
+  height: 4rem;
+  width: 75%;
+  margin-bottom: 2%;
+}
+
+.input-body {
+  height: 25rem;
+  width: 75%;
+  margin-bottom: 3.5%;
+}
+/*# sourceMappingURL=blogBody.css.map */
