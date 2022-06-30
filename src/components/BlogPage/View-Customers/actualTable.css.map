@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACsBQ,MAAM,EAAE,SAAS,EAAE,MAAM,OAAO,SAAS,EAAE,OAAO;EDnBtD,AAAA,IAAI,CAAA;IACA,gBAAgB,EAAE,OAAO;GAC5B;EACD,AAAA,eAAe,CAAA;IACX,OAAO,EAAC,KAAK;GAEhB;;;ACkBG,MAAM,EAAE,SAAS,EAAE,OAAO;EDb9B,AAAA,IAAI,CAAA;IACA,gBAAgB,EAAE,OAAO;GAC5B;EACD,AAAA,eAAe,CAAA;IACX,OAAO,EAAE,KAAK;GACjB",
+    "sources": [
+        "actualTable.scss",
+        "../mixins.scss"
+    ],
+    "names": [],
+    "file": "actualTable.css"
+}

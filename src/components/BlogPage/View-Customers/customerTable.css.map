@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "customerTable.scss"
+    ],
+    "names": [],
+    "file": "customerTable.css"
+}

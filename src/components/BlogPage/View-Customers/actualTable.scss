@@ -1,0 +1,21 @@
+@import "../mixins.scss";
+
+@include respond(laptop){
+    body{
+        background-color: #F9F9F9;
+    }
+    .table-customer{
+        padding:3% 5%;
+
+    }
+
+}
+
+@include respond(desktop){
+    body{
+        background-color: #F9F9F9;
+    }
+    .table-customer{
+        padding: 3% 5%;
+    }
+}
