@@ -4,14 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import BlogPage from "./components/BlogPage/BlogPage"
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import CustomerTable from "./components/BlogPage/View-Customers/customerTable";
+import BLOGS from "./components/BlogPage/View-Blogs/BLOGS";
+import EditBody from "./components/BlogPage/Edit-BLOGS/edit-Blogs";
 
-let Blogs =()=>{
-  return(
-    <>
-      <h1>This is Blogs page</h1>
-    </>
-  )
-}
+
 
 
 
@@ -23,7 +19,9 @@ function App() {
     
     <Routes>
       <Route path="/" element={<BlogPage />}/>
-      <Route path="/blogs" element={<Blogs />} />
+      <Route path="/blogs" element={<BLOGS />} />
+      <Route path="/blogs/update/:id" element={<EditBody/>}/>
+      
       <Route path="/customer" element={<CustomerTable/>} /> 
     </Routes>
     

@@ -1,0 +1,28 @@
+.card-blog-image{
+    height:30rem;
+    width: 100%;
+}
+.card-blog-button{
+    margin-right: 2rem;
+}
+.card-blog-div{
+    display:flex;
+    flex-direction:column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    border: 3px solid black;
+    
+
+}
+.card-blog-div div{
+    margin-bottom:3%;
+}
+.BLink{
+    text-decoration:none;
+    color:#fff; 
+}
+.BLink:hover{
+    text-decoration:none;
+    color:#fff; 
+}

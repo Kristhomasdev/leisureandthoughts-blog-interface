@@ -1,0 +1,20 @@
+.BlogBody{
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8%;
+    // border:3px solid; 
+    height: 50rem;
+}
+.input{
+    height: 4rem;
+    width:75%;
+    margin-bottom:2%;
+}
+.input-body{
+    height:25rem;
+    width:75%;
+    margin-bottom: 3.5%;
+}
